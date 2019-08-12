@@ -1,0 +1,8 @@
+
+/*This is for my pic specific for the About page*/
+#myface {
+    float: left;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}
