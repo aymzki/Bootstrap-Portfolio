@@ -1,4 +1,5 @@
 
+
 /*This is for my pic specific for the About page*/
 #myface {
     float: left;
@@ -6,3 +7,22 @@
     max-width: 100%;
     height: auto;
 }
+
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.5;
+  }
+  
