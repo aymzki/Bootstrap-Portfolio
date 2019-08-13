@@ -1,4 +1,23 @@
+/*Background*/
+body {
+  background-image: url("images/asanoha-400px.png");
+  background-repeat: repeat;
+}
 
+/*Content Box*/
+.content {
+  width: 960px;
+  height: auto;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  border-width: 10px; 
+  margin: auto; /*This text centers the box*/
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  top: 20px;
+  
+}
 
 /*This is for my pic specific for the About page*/
 #myface {
