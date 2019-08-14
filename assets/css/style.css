@@ -1,6 +1,6 @@
 /*Background*/
 body {
-  background-image: url("images/asanoha-400px.png");
+  background-image: url("../images/asanoha-400px.png");
   background-repeat: repeat;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 #page-content {
-  flex: 1 0 auto;
+  flex: 10 auto;
 }
 
 #sticky-footer {
