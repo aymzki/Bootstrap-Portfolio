@@ -6,12 +6,19 @@ body {
 
 /*This is for my pic specific for the About page*/
 #myface {
-    float: left;
-    padding: 10px;
-    max-width: 100%;
-    height: auto;
+  float: left;
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
+/*This is the teal bar that goes over the portfolio images*/
+.card-text {
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
 
 html,
 body {
@@ -22,11 +29,12 @@ body {
   flex: 10 auto;
 }
 
+/*Styling for the Footer*/
 #sticky-footer {
     flex-shrink: none;
     position: fixed;
     bottom: 0;
     width: 100%;
     line-height: 1.5;
-  }
+}
   
