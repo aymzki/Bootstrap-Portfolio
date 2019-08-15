@@ -9,6 +9,20 @@ body {
   height: 100%;
 }
 
+/*Styling for Nav Bar*/
+.navbar-brand {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 28px;
+  padding: 10px;
+  margin: 0;
+}
+
+/*Container Styling*/
 .container {
   background-color: #ffffff;
 }
