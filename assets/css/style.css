@@ -40,9 +40,8 @@ h2 {
 #myface {
   float: left;
   padding: 10px;
-  max-width: 100%;
-  width: 160px;
-  height: 200px;
+  max-width: 70%;
+  height: auto;
 }
 
 /*About page Paragraph content*/
