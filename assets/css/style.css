@@ -2,12 +2,10 @@
 body {
   background-image: url("../images/asanoha-400px.png");
   background-repeat: repeat;
+  padding: 10px;
+  padding-bottom: 100px;
 }
 
-html,
-body {
-  height: 100%;
-}
 
 /*Styling for Nav Bar*/
 .navbar-brand {
@@ -32,6 +30,7 @@ h2 {
   height: auto;
   position: relative;
   top: 40px;
+  bottom: 40px;
   align-content: center;
   justify-content: space-evenly;
   padding: 20px;
@@ -75,9 +74,6 @@ p {
   flex-wrap: wrap;
 }
 
-$grid-columns:      12;
-$grid-gutter-width: 30px;
-
 /*Styling for Contact Page*/
 
 .container {
@@ -96,5 +92,11 @@ $grid-gutter-width: 30px;
   bottom: 0;
   width: 100%;
   line-height: 1.5;
+  height:60px;
 }
   
+/*Overflow*/
+.anyClass {
+  height:150px;
+  overflow-y: scroll;
+}
