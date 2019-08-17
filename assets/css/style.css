@@ -34,15 +34,16 @@ h2 {
   top: 40px;
   align-content: center;
   justify-content: space-evenly;
+  padding: 20px;
 }
 
 /*This is for my pic specific for the About page*/
 #myface {
   float: left;
   padding: 10px;
-  max-width: 70%;
+  max-width: 100%;
   width: 160px;
-  height: 190px;
+  height: 200px;
 }
 
 /*Paragraph content*/
@@ -68,6 +69,10 @@ p {
 }
 
 /*Styling for Contact Page*/
+
+.container {
+  padding: 10px;
+}
 
 /*Styling for the Footer*/
 
